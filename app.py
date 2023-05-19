@@ -32,4 +32,4 @@ if submit:
         Results: """
         )
         for imagenet_id, name, likelihood in pred_classes[0]:
-            st.text('• {} with {:.0%} probability'.format(name,likelihood))
+            st.text('• {} with probability of {:.0%}'.format(name,likelihood))
