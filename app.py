@@ -14,7 +14,7 @@ st.write("""
 # Image Classifier"""
 )
 #Uploading Image
-upload_image = st.file_uploader("Upload an image from your computer", type=['png','jpg','jpeg','webp'])
+upload_image = st.file_uploader("Upload an image to be classified", type=['jpg','jpeg','png','webp'])
 submit = st.button('Classify Image')
 if submit:
 
